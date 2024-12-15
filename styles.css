@@ -1,0 +1,89 @@
+
+.post-completo{
+    display:auto;/*borre los display flex de los otros y agrege este para experimentar*/
+    width: 500px;
+    height: 680px;
+    margin:auto ;/*jajaja no queria centrarlo asi, pero funciono xd*/
+    background-color: white;
+    border: 1px solid black; /* Borde rojo para el post */
+}
+
+.post-header {
+    width: ;
+    height: 100px;
+    border: none;/*1px solid black;  Borde verde para el encabezado */
+    /*display:flex ;*/
+
+
+}
+
+.post-header img{
+    height: 50px;
+    width: 100px;
+    /*border-radius:50%;*/
+    margin:  10px;
+
+}
+.post-header span{
+    display: flex;
+    margin-left: 10px;
+}
+
+.post-presenta{
+    margin-top: 1px;
+    /*display: flex;--se elimino por que se le agrego display auto a post-completo*/
+    height 300px;
+    width: 50psx;
+    border: /*1px solid black*/none;
+}
+.post-presenta img{
+    width: 100%;
+    height: 100% ;
+}
+.post-presenta p{
+
+}
+.post-icons_izquierda{
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border: none; /*1px solid black;*/
+    height: 50px;
+    padding: 5px; /* Espaciado interno */
+   /* margin-top: 10px;
+    /*display: flex;--se elimino por que se le agrego display auto a post-completo*/
+   /* border: 2px solid black;
+    height: 30px;
+    /*width: 100%;*/
+    
+}
+.mark {
+    margin-left: auto; /* Empuja el ícono de marcar hacia la derecha */
+    width: auto; /* Ajusta el ancho automáticamente */
+    border: none; /* Elimina el borde adicional */
+    padding: 0; /* Elimina el padding extra */
+
+
+/*
+position: absolute;
+right: 0px;
+width: 300px;
+border: 3px solid #73AD21;
+padding: 10px;
+/*margin-right:710px;
+/*display: flex; esta no funciona*/
+/*position:;
+right: 710px;*/
+}
+
+.post-body{
+    margin-left: 10px;
+    margin-top: none;
+    /*display: flex;--se elimino por que se le agrego display auto a post-completo*/
+    /*border: 1px solid red;*/
+    height: 190px;
+    padding-top: 1px;
+}
+
+    
